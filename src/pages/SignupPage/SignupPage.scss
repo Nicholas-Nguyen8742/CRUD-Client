@@ -1,0 +1,12 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/typography' as *;
+
+.signUpPage {
+    background-color: $Background;
+    height: 100vh;
+    @include tablet {
+        height: 100%;
+        min-height: 140vh;
+    }
+}
